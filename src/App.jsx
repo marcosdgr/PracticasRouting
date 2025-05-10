@@ -4,6 +4,7 @@ import './App.css'
 import Home from './Pages/Home'
 import Ellos from "./Pages/Ellos"
 import Nosotros from "./Pages/Nosotros"
+import Error from "./Components/Error"
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
       <Route path="/" element={<Home/>}/>
       <Route path="/ellos" element={<Ellos/>}/>
       <Route path="/nosotros" element={<Nosotros/>}/>
+      <Route path="*" element={<Error/>}/>
 
     </Routes>
 

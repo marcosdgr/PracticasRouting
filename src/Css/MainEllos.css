@@ -1,0 +1,43 @@
+/* MainEllos.css */
+
+/* Contenedor principal */
+.contador-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    background-color: #f0f8ff; /* Fondo suave */
+  }
+  
+  /* Estilo del valor del contador */
+  .contador-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Contenedor de los botones */
+  .button-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Estilo de los botones */
+  .contador-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Efecto hover para los botones */
+  .contador-button:hover {
+    background-color: #45a049;
+  }
+  
