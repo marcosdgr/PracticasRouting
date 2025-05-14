@@ -1,10 +1,16 @@
 .nav {
-    background-color: #333; /* color de fondo oscuro */
-    padding: 10px 20px;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #333; /* color de fondo oscuro */
+  padding: 10px 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  z-index: 1000; /* asegura que esté por encima del resto del contenido */
+}
+
 
   .nav a {
     color: white;

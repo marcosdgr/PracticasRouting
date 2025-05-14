@@ -6,6 +6,7 @@ const MainEllos = () => {
 
   const handleSumar = () => {
     setContador(contador + 1);
+    
   };
 
   const handleRestar = () => {

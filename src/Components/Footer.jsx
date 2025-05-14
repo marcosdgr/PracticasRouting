@@ -2,7 +2,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>
+      <h2>FRT UNT 2025</h2>
+    </div>
   )
 }
 
